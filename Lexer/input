@@ -1,0 +1,63 @@
+class TreeNode {
+    let left : TreeNode <- void;
+    let right : TreeNode <- void;
+    let value : Int <- 0;
+
+    insert(newValue : Int) : TreeNode {
+        if newValue < value then
+            if isvoid left then
+                left <- TreeNode.create;
+                left.value <- newValue;
+                left
+            else
+                left.insert(newValue)
+            fi
+        else
+            if isvoid right then
+                right <- TreeNode.create;
+                right.value <- newValue;
+                right
+            else
+                right.insert(newValue)
+            fi
+        fi
+    };
+
+    height() : Int {
+        let leftHeight : Int <- 0;
+        let rightHeight : Int <- 0;
+
+        if isvoid left and isvoid right then
+            0
+        else
+            if not isvoid left then
+                leftHeight <- left.height();
+            fi
+            if not isvoid right then
+                rightHeight <- right.height();
+            fi
+
+            if rightHeight <= leftHeight then
+                leftHeight + 1
+            else
+                rightHeight + 1
+            fi
+        fi
+    };
+
+};
+
+class Main {
+    main() : Object {
+        let root : TreeNode <- TreeNode.create;
+        root.insert(5);
+        root.insert(3);
+        root.insert(8);
+        root.insert(1);
+        root.insert(4);
+        root.insert(7);
+        root.insert(9);
+
+        out_int(root.height());   -- print height
+    };
+};
