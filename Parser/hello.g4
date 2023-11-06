@@ -3,8 +3,8 @@ grammar hello;
 program   : classList # start
           ;
     
-classList: classDefine SEMICOLON
-		 | classDefine SEMICOLON classList
+classList: classDefine SEMICOLON classList
+		 |
 		 ;
     
 classDefine 
