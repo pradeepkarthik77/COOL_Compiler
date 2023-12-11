@@ -12,9 +12,9 @@ public class CaseAssignChild extends CaseAssign {
 
     @Override
     public void print() {
-        System.out.print("new CaseAssignChild ( ");
+        System.out.println("new CaseAssignChild ( ");
             c1.print();
-        System.out.print(", ");
+        System.out.println(", ");
         if (c2 != null)
             c2.print();
         System.out.println(" )");

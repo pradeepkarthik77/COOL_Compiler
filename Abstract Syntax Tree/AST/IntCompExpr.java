@@ -10,7 +10,7 @@ public class IntCompExpr extends Expr {
 
     @Override
     public void print() {
-        System.out.print("new IntCompExpr ( ");
+        System.out.println("new IntCompExpr ( ");
             c1.print();
         System.out.println(" )");
     }

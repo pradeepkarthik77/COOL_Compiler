@@ -10,7 +10,7 @@ public class AssignmentOptionChild extends AssignmentOption {
 
     @Override
     public void print() {
-        System.out.print("new AssignmentOptionChild ( ");
+        System.out.println("new AssignmentOptionChild ( ");
             c1.print();
         System.out.println(" )");
     }

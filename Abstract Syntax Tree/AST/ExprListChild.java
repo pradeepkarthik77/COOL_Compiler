@@ -12,9 +12,9 @@ public class ExprListChild extends ExprList {
 
     @Override
     public void print() {
-        System.out.print("new ExprListChild ( ");
+        System.out.println("new ExprListChild ( ");
             c1.print();
-        System.out.print(", ");
+        System.out.println(", ");
         if (c2 != null)
             c2.print();
         System.out.println(" )");

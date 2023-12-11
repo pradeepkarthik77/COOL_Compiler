@@ -16,19 +16,19 @@ public class OpExpr extends Expr{
 	@Override
 	public void print() {
 		// TODO Auto-generated method stub
-		System.out.print("new OpExpr (");
+		System.out.println("new OpExpr (");
 		e1.print();
-		System.out.print(",");
+		System.out.println(",");
 		switch(op) {
-		case 1: System.out.print("PLUS, ");
+		case 1: System.out.println("PLUS, ");
 				break;
-		case 2: System.out.print("MINUS, ");
+		case 2: System.out.println("MINUS, ");
 				break;
-		case 3: System.out.print("TIMES, ");
+		case 3: System.out.println("TIMES, ");
 				break;
-		case 4: System.out.print("DIV, ");
+		case 4: System.out.println("DIV, ");
 				break;
-		default: System.out.print("Invalid Operator, ");
+		default: System.out.println("Invalid Operator, ");
 				break;
 		}
 		

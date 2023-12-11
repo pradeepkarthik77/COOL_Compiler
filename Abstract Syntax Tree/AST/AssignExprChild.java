@@ -10,7 +10,7 @@ public class AssignExprChild extends AssignExpr {
 
     @Override
     public void print() {
-        System.out.print("new AssignExprChild ( ");
+        System.out.println("new AssignExprChild ( ");
             c1.print();
         System.out.println(" )");
     }

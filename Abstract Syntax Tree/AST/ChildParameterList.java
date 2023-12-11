@@ -12,9 +12,9 @@ public class ChildParameterList extends ParameterList implements ASTNode {
 
     @Override
     public void print() {
-        System.out.print("new ChildParameterList ( ");
+        System.out.println("new ChildParameterList ( ");
             c1.print();
-        System.out.print(", ");
+        System.out.println(", ");
         if (c2 != null)
             c2.print();
         System.out.println(" )");

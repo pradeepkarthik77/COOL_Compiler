@@ -12,9 +12,9 @@ public class WhileExpr extends Expr {
 
     @Override
     public void print() {
-        System.out.print("new WhileExpr ( ");
+        System.out.println("new WhileExpr ( ");
             c1.print();
-        System.out.print(", ");
+        System.out.println(", ");
             c2.print();
         System.out.println(" )");
     }

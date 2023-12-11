@@ -12,9 +12,9 @@ public class ExprContinueChild extends ExprContinue {
 
     @Override
     public void print() {
-        System.out.print("new ExprContinueChild ( ");
+        System.out.println("new ExprContinueChild ( ");
             c1.print();
-        System.out.print(", ");
+        System.out.println(", ");
         if (c2 != null)
             c2.print();
         System.out.println(" )");

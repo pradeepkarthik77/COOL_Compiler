@@ -15,7 +15,7 @@ public class ParameterChild extends Parameter{
 	@Override	
 	public void print() {
 		System.out.print("new ParameterChild(ID , " + id);
-		System.out.print(":"+type);
+		System.out.println(":"+type);
 		System.out.println(")");
 	}
 

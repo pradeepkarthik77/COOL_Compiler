@@ -13,7 +13,7 @@ public class BoolExpr extends Expr {
 	@Override
 	public void print() {
 		// TODO Auto-generated method stub
-		System.out.print("new BoolExpr (");
+		System.out.println("new BoolExpr (");
 		switch(op) {
 		case 1: System.out.print("TRUE");
 				break;

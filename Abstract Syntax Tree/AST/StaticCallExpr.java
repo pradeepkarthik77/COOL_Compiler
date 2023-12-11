@@ -14,7 +14,7 @@ public class StaticCallExpr extends Expr{
 
 	@Override	
 	public void print() {
-		System.out.print("new StaticCallExpr(ID , " + id + ",");
+		System.out.println("new StaticCallExpr(ID , " + id + ",");
 		if(e1!=null)
 		e1.print();
 		System.out.println(")");

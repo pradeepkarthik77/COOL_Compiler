@@ -14,12 +14,12 @@ public class ObjCallExpr extends Expr {
 
     @Override
     public void print() {
-        System.out.print("new ObjCallExpr ( ");
+        System.out.println("new ObjCallExpr ( ");
             c1.print();
-        System.out.print(", ");
+        System.out.println(", ");
         if (c2 != null)
             c2.print();
-        System.out.print(", ");
+        System.out.println(", ");
         if (c3 != null)
             c3.print();
         System.out.println(" )");

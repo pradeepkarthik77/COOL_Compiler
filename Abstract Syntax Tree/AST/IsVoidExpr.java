@@ -10,7 +10,7 @@ public class IsVoidExpr extends Expr {
 
     @Override
     public void print() {
-        System.out.print("new IsVoidExpr ( ");
+        System.out.println("new IsVoidExpr ( ");
             c1.print();
         System.out.println(" )");
     }

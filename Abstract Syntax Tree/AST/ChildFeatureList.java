@@ -12,9 +12,9 @@ public class ChildFeatureList extends FeatureList implements ASTNode {
 
     @Override
     public void print() {
-        System.out.print("new ChildFeatureList ( ");
+        System.out.println("new ChildFeatureList ( ");
             c1.print();
-        System.out.print(", ");
+        System.out.println(", ");
         if (c2 != null)
             c2.print();
         System.out.println(" )");

@@ -12,7 +12,7 @@ public class ChildProgram extends Program implements ASTNode{
 	@Override
 	public void print() {
 		// TODO Auto-generated method stub
-		System.out.print("new ChildProgram ( ");
+		System.out.println("new ChildProgram ( ");
 		c1.print();
 		System.out.println(" )");
 	}

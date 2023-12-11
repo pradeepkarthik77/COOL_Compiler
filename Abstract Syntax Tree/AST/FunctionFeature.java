@@ -18,10 +18,10 @@ public class FunctionFeature extends Feature implements ASTNode
 
 	@Override	
 	public void print() {
-		System.out.print("new FunctionFeature(ID , " + id + ",");
+		System.out.println("new FunctionFeature(ID , " + id + ",");
 		if(e1!=null)
 		e1.print();
-		System.out.print(":"+type+",");
+		System.out.println(":"+type+",");
 		e2.print();
 		System.out.println(")");
 	}

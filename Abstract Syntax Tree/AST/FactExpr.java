@@ -10,7 +10,7 @@ public class FactExpr extends Expr {
 
     @Override
     public void print() {
-        System.out.print("new FactExpr ( ");
+        System.out.println("new FactExpr ( ");
             c1.print();
         System.out.println(" )");
     }

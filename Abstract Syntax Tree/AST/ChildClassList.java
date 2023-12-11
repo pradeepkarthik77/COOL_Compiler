@@ -19,7 +19,7 @@ public class ChildClassList extends ClassList implements ASTNode{
 	@Override
 	public void print() {
 		// TODO Auto-generated method stub
-		System.out.print("new ChildClassList: "+type+" (");
+		System.out.println("new ChildClassList: "+type+" (");
 		if(c1!=null)
 		c1.print();
 		System.out.println(",");

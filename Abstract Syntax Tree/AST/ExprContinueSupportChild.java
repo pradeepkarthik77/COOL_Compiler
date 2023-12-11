@@ -10,7 +10,7 @@ public class ExprContinueSupportChild extends ExprContinueSupport {
 
     @Override
     public void print() {
-        System.out.print("new ExprContinueSupportChild ( ");
+        System.out.println("new ExprContinueSupportChild ( ");
             c1.print();
         System.out.println(" )");
     }

@@ -12,9 +12,9 @@ public class CommaExprChild extends CommaExpr {
 
     @Override
     public void print() {
-        System.out.print("new CommaExprChild ( ");
+        System.out.println("new CommaExprChild ( ");
             c1.print();
-        System.out.print(", ");
+        System.out.println(", ");
         if (c2 != null)
             c2.print();
         System.out.println(" )");

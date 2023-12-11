@@ -12,9 +12,9 @@ public class CommaSeperatedParametersChild extends CommaSeperatedParameters {
 
     @Override
     public void print() {
-        System.out.print("new CommaSeperatedParametersChild ( ");
+        System.out.println("new CommaSeperatedParametersChild ( ");
             c1.print();
-        System.out.print(", ");
+        System.out.println(", ");
         if (c2 != null)
             c2.print();
         System.out.println(" )");

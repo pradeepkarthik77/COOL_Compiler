@@ -17,7 +17,7 @@ public class RelExpr extends Expr{
 	@Override
 	public void print() {
 		// TODO Auto-generated method stub
-		System.out.print("new RelExpr (");
+		System.out.println("new RelExpr (");
 		e1.print();
 		System.out.print(",");
 		switch(op) {

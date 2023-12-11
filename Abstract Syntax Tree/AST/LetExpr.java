@@ -20,7 +20,7 @@ public class LetExpr extends Expr{
 	@Override
 	public void print() {
 		// TODO Auto-generated method stub
-		System.out.print("new LetExpr (ID:"+id+" TYPE:"+type+",");
+		System.out.println("new LetExpr (ID:"+id+" TYPE:"+type+",");
 		if(s1!=null)
 		s1.print();
 		System.out.println(",");

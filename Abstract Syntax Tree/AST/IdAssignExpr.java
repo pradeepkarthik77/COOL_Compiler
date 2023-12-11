@@ -14,7 +14,7 @@ public class IdAssignExpr extends Expr{
 	@Override
 	public void print() {
 		// TODO Auto-generated method stub
-		System.out.print("new IdAssignExpr ( ID: "+id+",");
+		System.out.println("new IdAssignExpr ( ID: "+id+",");
 		s1.print();
 		System.out.println(" )");
 	}

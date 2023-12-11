@@ -10,7 +10,7 @@ public class ChildClassDefine extends ClassDefine implements ASTNode {
 
     @Override
     public void print() {
-        System.out.print("new ChildClassDefine ( ");
+        System.out.println("new ChildClassDefine ( ");
             c1.print();
         System.out.println(" )");
     }

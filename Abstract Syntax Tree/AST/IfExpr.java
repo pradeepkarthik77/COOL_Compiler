@@ -14,11 +14,11 @@ public class IfExpr extends Expr {
 
     @Override
     public void print() {
-        System.out.print("new IfExpr ( ");
+        System.out.println("new IfExpr ( ");
             c1.print();
-        System.out.print(", ");
+        System.out.println(", ");
             c2.print();
-        System.out.print(", ");
+        System.out.println(", ");
             c3.print();
         System.out.println(" )");
     }

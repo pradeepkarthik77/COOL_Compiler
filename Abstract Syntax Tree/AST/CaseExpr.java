@@ -12,9 +12,9 @@ public class CaseExpr extends Expr {
 
     @Override
     public void print() {
-        System.out.print("new CaseExpr ( ");
+        System.out.println("new CaseExpr ( ");
             c1.print();
-        System.out.print(", ");
+        System.out.println(", ");
             c2.print();
         System.out.println(" )");
     }

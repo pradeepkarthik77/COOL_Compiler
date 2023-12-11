@@ -10,7 +10,7 @@ public class CaseAssignSupportChild extends CaseAssignSupport {
 
     @Override
     public void print() {
-        System.out.print("new CaseAssignSupportChild ( ");
+        System.out.println("new CaseAssignSupportChild ( ");
             c1.print();
         System.out.println(" )");
     }

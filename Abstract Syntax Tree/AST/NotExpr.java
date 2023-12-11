@@ -12,7 +12,7 @@ public class NotExpr extends Expr{
 	@Override
 	public void print() {
 		// TODO Auto-generated method stub
-		System.out.print("new NotExpr ( ");
+		System.out.println("new NotExpr ( ");
 		s1.print();
 		System.out.println(" )");
 	}

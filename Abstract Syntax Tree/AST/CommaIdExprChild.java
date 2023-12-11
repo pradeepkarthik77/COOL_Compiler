@@ -18,7 +18,7 @@ public class CommaIdExprChild extends CommaIdExpr{
 
 	@Override	
 	public void print() {
-		System.out.print("new CommaidExpr(ID , " + id + ":"+type+",");
+		System.out.println("new CommaidExpr(ID , " + id + ":"+type+",");
 		if(e1!=null)
 		e1.print();
 		if(e2!=null)

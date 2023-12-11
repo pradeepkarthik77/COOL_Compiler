@@ -54,6 +54,7 @@ expr returns [Expr node]: t1=expr t2=atType DOT ID OPENPARENTHESES t3=exprList C
 						   | NOT j1=expr {$node = new NotExpr($j1.node);}
 						   | OPENPARENTHESES k1=expr CLOSEPARENTHESES {$node = new FactExpr($k1.node);}
 						   | STRING {$node = new StringExpr($STRING.text);}
+						   | NUM {$node = new NumExpr($NUM.text);}
 						   | ID {$node = new IdExpr($ID.text);}
 						   | l=boolexp {$node = new BoolExpr($l.value);}
 						   | ID ASSIGN k1=expr {$node = new IdAssignExpr($ID.text,$k1.node);}

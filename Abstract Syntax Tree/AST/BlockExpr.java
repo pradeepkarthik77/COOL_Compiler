@@ -10,7 +10,7 @@ public class BlockExpr extends Expr {
 
     @Override
     public void print() {
-        System.out.print("new BlockExpr ( ");
+        System.out.println("new BlockExpr ( ");
             c1.print();
         System.out.println(" )");
     }
