@@ -2,6 +2,9 @@ grammar hello;
 
 @header{
 	import AST.*;
+	 import java.util.Hashtable;
+	 import java.util.Enumeration;
+	 import java.io.*;
 }
 
 start returns [ASTNode node]: t1=program {$node = $t1.node; $node.print();};
